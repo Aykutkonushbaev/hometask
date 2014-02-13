@@ -1,0 +1,87 @@
+#container{
+    width:1000px;
+    height: 100%;
+    margin:0 auto;
+    text-align: left;
+
+}
+#header{
+    background-color: #202020;
+    /*background-image: url("images/bg2.jpg");*/
+    //height: 25%;
+}
+#left{
+    width: 25%;
+    /*height: 165%;*/
+    background-color: #101010;
+    /*background-image: url("images/bg1.jpg");*/
+    float: left;
+
+}
+#content{
+    width: 75%;
+
+    background-color: #000000;
+    /*background-image: url("images/bg1.jpg");*/
+    text-align: left;
+    margin: 0px;
+    margin-left:0px;
+    float: left;
+}
+#article{
+    padding: 10px;
+}
+#clear{
+    clear: left;
+}
+#footer{
+    background-color: #2e242b;
+}
+
+body, html{
+    background-color: #050505;
+    /*background-image: url('images/bg.jpg');*/
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.rightimg {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+}
+h1 {
+    color: #F8BE00;
+    text-indent: 35px;
+}
+h4{
+    color: #ff0700;
+    text-indent: 35px;
+}
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #F8BE40;
+    text-indent: 35px;
+}
+h3{
+    color: #F8C650;
+    text-indent: 35px;
+}
+ul{
+    color: #F8BE00;
+}
+ol{
+    color: #F8BE00;
+}
+.QBasic{
+    /*font: arial;*/
+    color: white;
+    background-color: darkblue;
+}
+    a:link {color: #ff6c16;}
+    a:visited {color: #fffc5c;}
+    a:hover {color: #fbfff0;}
+    a:active {color: #ff0700;}
