@@ -27,6 +27,11 @@
     margin: 0px;
     margin-left:0px;
     float: left;
+
+}
+#content.p{
+    color: green;
+
 }
 #article{
     padding: 10px;
@@ -63,7 +68,7 @@ h4{
 }
 p {
     font-family: Verdana, Geneva, sans-serif;
-    color: #F8BE40;
+    color: green;
     text-indent: 35px;
 }
 h3{
@@ -80,6 +85,10 @@ ol{
     /*font: arial;*/
     color: white;
     background-color: darkblue;
+}
+.picture{
+    width: 740px;
+    height: auto;
 }
     a:link {color: #ff6c16;}
     a:visited {color: #fffc5c;}
